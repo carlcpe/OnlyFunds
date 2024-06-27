@@ -20,7 +20,7 @@
     #login_bar{
         background-color: rgba(128, 128, 128, 0.7);
         width: 400px; 
-        height: 400px; 
+        height: 600px; 
         margin:auto;
         margin-top:5%;
         text-align: center;
@@ -58,10 +58,12 @@
     
 
     <div id="login_bar">
-        <div style="font-size: 40px;">Login<br></div>
-        Log in to continue<br><br>
+        <div style="font-size: 40px;">Sign Up<br></div>
+        Sign up to join us<br><br>
+        <input type="text" id="text" placeholder="Username"><br><br>
         <input type="text" id="text" placeholder="Email"><br><br>
         <input type="text" id="text" placeholder="Password"><br><br>
+        <input type="text" id="text" placeholder="Retype Password"><br><br>
         <input type="submit" id="button" value="Log in"><br><br>
 
         <div id="signup_button">
