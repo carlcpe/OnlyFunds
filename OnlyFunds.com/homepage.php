@@ -9,29 +9,35 @@
     #header_bar{
         height: 50px;
         width: 100%;
+        margin: auto;
         background-color: darkgray;
         color: white;
         align-content: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
     #logo_name{
         font-size: 30px;
     }
     #tab_bar{
-        max-width: 300px;
-        min-height: 650px;
+        width: 300px;
         margin: 0;
         padding: 0;
         background-color: gray;
-        flex:1 ;
+        position:fixed;
+        left:0px;
+        bottom: 0px;
+        top: 50px;
+
     }
     #workspace{
         background-color: beige;
         width: 500px;
-        min-height: 400px;
-        flex: 1;
+        height: 400px;
     }
 </style>
-<body style="background:linear-gradient(to right,yellow, orange);">
+<body style="background:linear-gradient(to right,yellow, orange);padding-left:305px;padding-top:55px;">
 
     <div id="header_bar">
         <div id="logo_name">
@@ -39,12 +45,11 @@
         </div>
     </div>
 
-    <div id="main_space" style="display:flex">
-        <div id="tab_bar">
+    <div id="tab_bar">
+    </div>
 
-        </div>
+    <div id="main_space" style="display:flex;">
         <div id="workspace">
-
         </div>
     </div>
     
