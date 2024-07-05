@@ -54,12 +54,11 @@ $res = mysqli_query($con, "SELECT expense.*, category.name
                         <?php echo getCategory($cat_id, 'expense'); ?>
                         From <input type="date" name="from" value="<?php echo $from ?>" max="<?php echo date('Y-m-d') ?>" onchange="set_to_date()" id="from_date" class="form-control w250">
                         To <input type="date" name="to" value="<?php echo $to ?>" max="<?php echo date('Y-m-d') ?>" id="to_date" class="form-control w250">
-                        <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-info btn-block">
-                        <a href="expense.php">Reset</a>
+                        <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-info my-submit-button">
+                     <button onclick="location.href='expense.php'" class="btn btn-lg btn-info my-submit-button">Reset</button>
                      </div>
                   </form>
                </div>
-               <a href="manage_expense.php">Add Expense</a>
                <br/><br/>
                <?php
                   if (mysqli_num_rows($res) > 0) {
@@ -84,7 +83,7 @@ $res = mysqli_query($con, "SELECT expense.*, category.name
                            <td><?php echo $row['expense_date']; ?></td>
                            <td>
                               <a href="Edit_expense.php?id=<?php echo $row['id']; ?>">Edit</a>&nbsp;
-                              <a href="javascript:void(0)" onclick="delete_confir('<?php echo $row['id']; ?>', 'expense.php')">Delete</a>
+                              <a href="javascript:void(0)" onclick="delete_confir('<?php echo $row['id']; ?>', 'expense.php')"style="color: red;">Delete</a>
                            </td>
                         </tr>
                         <?php } ?>
@@ -97,6 +96,7 @@ $res = mysqli_query($con, "SELECT expense.*, category.name
                   }
                ?>
             </div>
+            <button onclick="location.href='manage_expense.php'" class="btn btn-lg btn-info btn-block my-submit-button">Add Expense</button>
          </div>
       </div>
    </div>

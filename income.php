@@ -60,12 +60,11 @@ $incomeRecords = mysqli_query($con, $sql);
                      <?php echo getCategory($cat_id, 'income'); ?>
                      From <input type="date" name="from" value="<?php echo $from ?>" max="<?php echo date('Y-m-d') ?>" id="from_date" class="form-control w250">
                      To <input type="date" name="to" value="<?php echo $to ?>" max="<?php echo date('Y-m-d') ?>" id="to_date" class="form-control w250">
-                     <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-info btn-block">
-                     <a href="income.php">Reset</a>
+                     <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-info my-submit-button">
+                     <button onclick="location.href='income.php'" class="btn btn-lg btn-info my-submit-button">Reset</button>
                     </div>
                   </form>
                </div>
-               <a href="manage_income.php">Add Income</a>
                <br/><br/>
                <?php
                   if (mysqli_num_rows($incomeRecords) > 0) {
@@ -91,7 +90,7 @@ $incomeRecords = mysqli_query($con, $sql);
                               <td>
                                  <a href="Edit_income.php?id=<?php echo $record['id']; ?>">Edit</a>
                                  &nbsp;
-                                 <a href="javascript:void(0)" onclick="delete_confir('<?php echo $record['id']; ?>', 'income.php')">Delete</a>
+                                 <a href="javascript:void(0)" onclick="delete_confir('<?php echo $record['id']; ?>', 'income.php')" style="color: red;">Delete</a>
                               </td>
                            </tr>
                         <?php } ?>
@@ -103,6 +102,7 @@ $incomeRecords = mysqli_query($con, $sql);
                      echo "<div>No data found</div>";
                   }
                ?>
+               <button onclick="location.href='manage_income.php'" class="btn btn-lg btn-info btn-block my-submit-button">Add Income</button>
             </div>
          </div>
       </div>
