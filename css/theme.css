@@ -14695,3 +14695,13 @@ section {
 .filter_form .btn{
 	margin-top:20px;
 }
+
+.my-submit-button {
+    background-color: #DAA520; /* Change to your desired color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+}
+
+.my-submit-button:hover {
+    background-color: #b1871b; /* Darker shade on hover */
+}
