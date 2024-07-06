@@ -39,12 +39,14 @@
                   ?>
                <div class="table-responsive table--no-card m-b-30">
                   <table class="table table-borderless table-striped table-earning">
-                     <tr>
-                        <th>Category</th>
-                        <th>Item</th>
-                        <th>Expense Date</th>
-                        <th>Price</th>
-                     </tr>
+                     <thead class="black-header">
+                        <tr>
+                           <th>Category</th>
+                           <th>Item</th>
+                           <th>Expense Date</th>
+                           <th>Price</th>
+                        </tr>
+                     </thead>
                      <?php 
                         $final_price=0;
                         while($row=mysqli_fetch_assoc($res)){

@@ -65,6 +65,10 @@
       <!-- END HEADER MOBILE-->
       <!-- MENU SIDEBAR-->
       <<aside class="menu-sidebar d-none d-lg-block">
+         <div class="sidebar-header">
+            <img src="images\logo.png" alt="Logo">
+            <h1>OnlyFunds</h1>
+         </div>
     <div class="menu-sidebar__content js-scrollbar1">
         <nav class="navbar-sidebar">
             <ul class="list-unstyled navbar__list">

@@ -14705,3 +14705,57 @@ section {
 .my-submit-button:hover {
     background-color: #b1871b; /* Darker shade on hover */
 }
+
+.wallet-header-black {
+    background-color: #333333; /* Change to your desired background color */
+    color: white; /* Change to your desired text color */
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333333; /* Adjust the background color as needed */
+    color: white; /* Ensure the text color is white for visibility */
+}
+
+.sidebar-header img {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between the logo and the title */
+}
+
+.sidebar-header h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+    color: white; /* Ensure the text color is white */
+}
+
+.form-group .row {
+    margin-top: 10px; /* Add some space between the inputs and buttons */
+}
+
+.form-control.w250 {
+    max-width: 100%; /* Ensure the date inputs are responsive */
+}
+
+.my-submit-button {
+    width: 100%; /* Ensure the buttons take up the full width of their containers */
+}
+
+.category-padding {
+    margin-right: 20px;
+}
+
+.black-header {
+    background-color: #333333;
+    color: white;
+}
+
+.black-header th {
+    background-color: #333333;
+    color: white;
+}
+
+.table-borderless th, .table-borderless td {
+    border: none;
+}

@@ -167,6 +167,7 @@ $walletHistory = getWalletHistory();
             <div class="row">
                 <!-- Wallet History Chart -->
                 <div class="col-lg-12">
+                <h2>Dashboard</h2>
                     <div class="overview-item overview-item--c1">
                         <div class="overview__inner">
                             <div class="overview-box clearfix">

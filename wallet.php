@@ -95,8 +95,9 @@ $walletBalance = getWalletBalance(); // Refresh wallet balance
       <div class="container-fluid">
          <div class="row">
             <div class="col-lg-12">
+            <h2>Wallet</h2>
                <div class="card">
-                  <div class="card-header">
+                  <div class="card-header wallet-header-black">
                      <strong>Wallet Balance</strong>
                   </div>
                   <div class="card-body">
@@ -119,7 +120,7 @@ $walletBalance = getWalletBalance(); // Refresh wallet balance
                   <a href="withdraw.php" class="btn btn-danger btn-block">Withdraw from Wallet</a>
                </div>
                <div class="col-lg-12 mt-4 text-center"> 
-               <a href="transfer.php" class="btn btn-success">Transfer Money</a> 
+               <a href="transfer.php" class="btn btn-success my-submit-button">Transfer Money</a> 
                 </div>
             </div>
 
@@ -127,7 +128,7 @@ $walletBalance = getWalletBalance(); // Refresh wallet balance
          <div class="row mt-4">
             <div class="col-lg-12">
                <div class="card">
-                  <div class="card-header">
+                  <div class="card-header wallet-header-black">
                      <strong>Wallet Balance History</strong>
                   </div>
                   <div class="card-body">

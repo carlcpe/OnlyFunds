@@ -54,14 +54,20 @@ $incomeRecords = mysqli_query($con, $sql);
          <div class="row">
             <div class="col-lg-12">
                <h2>Income Records</h2>
-               <div class="filter_form">
+               <div class="filter_form category-padding">
                   <form method="get">
                     <div class="form-group">
                      <?php echo getCategory($cat_id, 'income'); ?>
-                     From <input type="date" name="from" value="<?php echo $from ?>" max="<?php echo date('Y-m-d') ?>" id="from_date" class="form-control w250">
-                     To <input type="date" name="to" value="<?php echo $to ?>" max="<?php echo date('Y-m-d') ?>" id="to_date" class="form-control w250">
-                     <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-info my-submit-button">
-                     <button onclick="location.href='income.php'" class="btn btn-lg btn-info my-submit-button">Reset</button>
+                     From <input type="date" name="from" value="<?php echo $from ?>" max="<?php echo date('Y-m-d') ?>" id="from_date" class="form-control w250 category-padding">
+                     To <input type="date" name="to" value="<?php echo $to ?>" max="<?php echo date('Y-m-d') ?>" id="to_date" class="form-control w250 category-padding">
+                     <div class="row mt-4">
+                        <div class="col-md-6">
+                              <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-info my-submit-button w-100">
+                        </div>
+                        <div class="col-md-6">
+                              <button onclick="location.href='income.php'" class="btn btn-lg btn-info my-submit-button w-100">Reset</button>
+                        </div>
+                     </div>
                     </div>
                   </form>
                </div>
