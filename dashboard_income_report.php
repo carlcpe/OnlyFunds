@@ -44,12 +44,14 @@ $result = mysqli_query($con, $query);
                     ?>
                         <div class="table-responsive table--no-card m-b-30">
                             <table class="table table-borderless table-striped table-earning">
-                                <tr>
-                                    <th>Category</th>
-                                    <th>description</th>
-                                    <th>Income Date</th>
-                                    <th>Amount</th>
-                                </tr>
+                                <thead class="black-header">   
+                                    <tr>
+                                        <th>Category</th>
+                                        <th>Description</th>
+                                        <th>Income Date</th>
+                                        <th>Amount</th>
+                                    </tr>
+                                </thead>
                                 <?php
                                 $final_amount = 0;
                                 while ($row = mysqli_fetch_assoc($result)) {

@@ -98,7 +98,7 @@ if (isset($_POST['addExpense'])) {
                                     <label>Expense Date</label>
                                     <input class="au-input au-input--full" type="date" name="expenseDate" required>
                                 </div>
-                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit" name="addExpense">Add Expense</button>
+                                <button class="au-btn au-btn--block my-submit-button m-b-20" type="submit" name="addExpense">Add Expense</button>
                               </form>
                               <div id="msg"><?php echo $msg ?></di>
                               <div class="center-button-container">
