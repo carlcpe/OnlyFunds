@@ -1,7 +1,11 @@
 <?php
 include('header.php');
-checkUser();
-userArea();
+
+
+if (isset($_SESSION['msg'])) {
+   echo '<div class="alert alert-info">' . $_SESSION['msg'] . '</div>';
+   unset($_SESSION['msg']);
+}
 
 function getTotalExpenses() {
     global $con;
@@ -106,6 +110,19 @@ $walletBalance = getWalletBalance(); // Refresh wallet balance
             </div>
          </div>
 
+        <!-- Deposit and Withdraw Buttons -->
+            <div class="row mt-4">
+               <div class="col-lg-6">
+                  <a href="deposit.php" class="btn btn-primary btn-block">Deposit to Wallet</a>
+               </div>
+               <div class="col-lg-6">
+                  <a href="withdraw.php" class="btn btn-danger btn-block">Withdraw from Wallet</a>
+               </div>
+               <div class="col-lg-12 mt-4 text-center"> 
+               <a href="transfer.php" class="btn btn-success">Transfer Money</a> 
+                </div>
+            </div>
+
          <!-- Wallet Balance History Section -->
          <div class="row mt-4">
             <div class="col-lg-12">
@@ -152,9 +169,7 @@ $walletBalance = getWalletBalance(); // Refresh wallet balance
                </div>
             </div>
          </div>
-
       </div>
    </div>
 </div>
-
 <?php include('footer.php'); ?>
