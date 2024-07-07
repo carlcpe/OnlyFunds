@@ -2,6 +2,25 @@
 include('header.php'); 
 checkUser();
 userArea();?>
+<style>
+
+   .image{
+      width: 100%;
+      height: 300px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .image img{
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      border:10px solid;
+   }
+   .team-member{
+      text-align: center;
+   }
+</style>
 
 <div class="main-content">
    <div class="section__content section__content--p30">
@@ -57,45 +76,56 @@ userArea();?>
                         <!-- Team Member 1 -->
                         <div class="col-md-4 mb-4">
                            <div class="team-member">
-                              <img src="team-member1.jpg" alt="Team Member 1" class="img-fluid">
+                              <div class="image">
+                                 <img src="media/team-member11.jpg" alt="Team Member 1" class="img-fluid">
+                              </div>
+
                               <h4>Christofer Estrada</h4>
-                              <p>nigga 1</p>
+                              <p>Backend Specialist</p>
                            </div>
                         </div>
 
                         <!-- Team Member 2 -->
                         <div class="col-md-4 mb-4">
-                           <div class="team-member">
-                              <img src="team-member2.jpg" alt="Team Member 2" class="img-fluid">
+                              <div class="team-member">
+                                 <div class="image">
+                              <img src="media/team-member21.jpg" alt="Team Member 2" class="img-fluid">
+                              </div>
                               <h4>Karl Cedrick Salonga</h4>
-                              <p>nigga 2</p>
+                              <p>Project Head</p>
                            </div>
                         </div>
 
                         <!-- Team Member 3 -->
                         <div class="col-md-4 mb-4">
-                           <div class="team-member">
-                              <img src="team-member3.jpg" alt="Team Member 3" class="img-fluid">
+                              <div class="team-member">
+                                 <div class="image">
+                              <img src="media/team-member3.jpg" alt="Team Member 3" class="img-fluid">
+                              </div>
                               <h4>Carl Jendreik Naval</h4>
-                              <p>nigga 3</p>
+                              <p>Frontend Specialist</p>
                            </div>
                         </div>
 
                         <!-- Team Member 4 -->
                         <div class="col-md-4 mb-4">
                            <div class="team-member">
-                              <img src="team-member4.jpg" alt="Team Member 4" class="img-fluid">
+                              <div class="image">
+                                 <img src="media/team-member41.jpg" alt="Team Member 4" class="img-fluid">
+                              </div>
                               <h4>Ivan Aron Simon</h4>
-                              <p>Head of Nigga</p>
+                              <p>Frontend Support</p>
                            </div>
                         </div>
 
                         <!-- Team Member 5 -->
                         <div class="col-md-4 mb-4">
                            <div class="team-member">
-                              <img src="team-member5.jpg" alt="Team Member 5" class="img-fluid">
+                              <div class="image">
+                                 <img src="media/team-member5.jpg" alt="Team Member 5" class="img-fluid">
+                              </div>
                               <h4>Gabriel Natividad</h4>
-                              <p>Nigga 5</p>
+                              <p>Content Specialist</p>
                            </div>
                         </div>
                      </div>
