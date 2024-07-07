@@ -65,10 +65,6 @@
       <!-- END HEADER MOBILE-->
       <!-- MENU SIDEBAR-->
       <<aside class="menu-sidebar d-none d-lg-block">
-         <div class="sidebar-header">
-            <img src="images\logo.png" alt="Logo">
-            <h1>OnlyFunds</h1>
-         </div>
     <div class="menu-sidebar__content js-scrollbar1">
         <nav class="navbar-sidebar">
             <ul class="list-unstyled navbar__list">
@@ -89,6 +85,12 @@
                     <a href="wallet.php">
                         <i class="fas fa-list-alt"></i>Wallet</a>
                 </li>
+                <!-- Existing code in sidebar.php -->
+                <li id="about_us_link">
+                    <a href="about.php">
+                        <i class="fas fa-info-circle"></i>About Us</a>
+                </li>
+
                 <?php } else { ?>
                 <li id="category_link">
                     <a href="category.php">
