@@ -351,14 +351,14 @@ section {
 }
 
 .login-wrap {
-    max-width: 540px;
+    width: 540px;
     padding-top: 8vh;
     margin: 0 auto;
     z-index: 50;
-    position: relative;
+    position: fixed;
     align-content: center;
-    left: 25%;
-    
+    right: 15%;
+    top:120px    
 }
 
 .login-logo {
