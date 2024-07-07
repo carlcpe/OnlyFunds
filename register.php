@@ -74,11 +74,30 @@ if (isset($_POST['signIn'])) {
     <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
     <link href="css/theme.css" rel="stylesheet" media="all">
 </head>
+<style>
+    .bg-image{
+        position: absolute;
+        left: 30px;
+        top: 150px;
+    }
+    .logo-image{
+        position: absolute;
+        width: 120px;
+        left: 8%;
+        top: 60px;
 
+    }
+</style>
 <body class="animsition">
     <div class="page-wrapper">
         <div class="page-content--bge5">
             <div class="container">
+                <div class="logo-image">
+                    <img src="media/logo2.png">
+                </div> 
+                <div class="bg-image">
+                    <img src="media/signup2.png">
+                </div> 
                 <div class="login-wrap">
                     <div class="login-content">
                         <div class="login-form">
@@ -107,6 +126,9 @@ if (isset($_POST['signIn'])) {
             </div>
         </div>
     </div>
+    <label class="title" style="font-size: 50px; color:black;font-family: 'Times New Roman', Times, serif; position:absolute; top:50px;left:15%;">Sign Up Today!<br></label>
+    <label style="font-size: 25px; color:black;font-family: 'Times New Roman', Times, serif; position:absolute; top:120px;left:17%;"> "Be part of OnlyFunds"</labe>
+    
 
     <script src="vendor/jquery-3.2.1.min.js"></script>
     <script src="vendor/bootstrap-4.1/popper.min.js"></script>
