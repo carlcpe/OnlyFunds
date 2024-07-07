@@ -14711,6 +14711,16 @@ section {
     color: white; /* Change to your desired text color */
 }
 
+.wallet-header-black h1 {
+    color: white;
+    margin: 0;
+}
+
+.wallet-header-black h2 {
+    color: white;
+    margin: 0;
+}
+
 .sidebar-header {
     display: flex;
     align-items: center;
@@ -14758,4 +14768,13 @@ section {
 
 .table-borderless th, .table-borderless td {
     border: none;
+}
+
+.indented-list {
+    padding-left: 30px; /* Adjust the padding to your preference */
+    list-style-type: disc; /* Ensure the list has bullet points */
+}
+
+.indented-list li {
+    margin-bottom: 10px; /* Add space between list items if needed */
 }

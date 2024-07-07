@@ -28,7 +28,7 @@ userArea();?>
          <div class="row">
             <div class="col-lg-12">
                <div class="card">
-                  <div class="card-header">
+                  <div class="card-header wallet-header-black">
                      <h1>About OnlyFunds</h1>
                   </div>
                   <div class="card-body">
@@ -36,14 +36,14 @@ userArea();?>
 
                      <h2>Our Mission</h2>
                      <p>Our mission at OnlyFunds is to simplify financial management through intuitive tools and comprehensive resources. We strive to:</p>
-                     <ul>
+                     <ul class="indented-list">
                         <li><strong>Empower Users:</strong> We empower users with easy-to-use interfaces and powerful features that streamline financial tasks.</li>
                         <li><strong>Promote Financial Health:</strong> We promote financial health by offering insights into spending patterns, savings opportunities, and investment strategies.</li>
                         <li><strong>Build Trust:</strong> We build trust through transparency, security, and reliability in handling your financial data.</li>
                      </ul>
 
                      <h2>What We Offer</h2>
-                     <ul>
+                     <ul class="indented-list">
                         <li><strong>Expense Tracking:</strong> Easily track your expenses and categorize spending to gain a clear understanding of your financial habits.</li>
                         <li><strong>Income Management:</strong> Manage multiple income sources and track earnings over time to optimize budgeting and savings.</li>
                         <li><strong>Wallet Management:</strong> Maintain a clear view of your wallet balance with real-time updates and transaction history.</li>
@@ -51,7 +51,7 @@ userArea();?>
                      </ul>
 
                      <h2>Why Choose OnlyFunds?</h2>
-                     <ul>
+                     <ul class="indented-list">
                         <li><strong>User-Centric Design:</strong> We prioritize user experience, ensuring our platform is accessible and intuitive for users of all levels of financial expertise.</li>
                         <li><strong>Security:</strong> Your financial data is protected with industry-standard security measures to ensure peace of mind.</li>
                         <li><strong>Continuous Improvement:</strong> We continuously update and improve our platform based on user feedback and evolving financial practices.</li>
@@ -68,7 +68,7 @@ userArea();?>
          <div class="row mt-4">
             <div class="col-lg-12">
                <div class="card">
-                  <div class="card-header">
+                  <div class="card-header wallet-header-black">
                      <h2>Our Team</h2>
                   </div>
                   <div class="card-body">
@@ -100,7 +100,7 @@ userArea();?>
                         <div class="col-md-4 mb-4">
                               <div class="team-member">
                                  <div class="image">
-                              <img src="media/team-member3.jpg" alt="Team Member 3" class="img-fluid">
+                              <img src="media/team-member31.png" alt="Team Member 3" class="img-fluid">
                               </div>
                               <h4>Carl Jendreik Naval</h4>
                               <p>Frontend Specialist</p>
