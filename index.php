@@ -36,16 +36,37 @@ if(isset($_POST['login'])){
 <style>
     .bg-image{
         position: absolute;
-        left: 30px;
+        left: 5%;
         top: 150px;
 
     }
     .logo-image{
         position: absolute;
         width: 120px;
-        left: 12%;
-        top: 60px;
+        top: 10px;
 
+    }
+    .headerOF{
+        position:absolute;
+        top:50px;
+        left: 15%;
+        height: 150px;
+        width: 400px;
+    }
+    .title{
+        font-size: 50px; 
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        left: 125px;
+    }
+    .subtitle{
+        font-size: 25px; 
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        left: 125px;
+        top: 75px;
     }
 </style>
 <head>
@@ -74,9 +95,7 @@ if(isset($_POST['login'])){
         <div class="page-content--bge5">
 
         <div class="container">
-            <div class="logo-image">
-                <img src="media/logo2.png">
-            </div> 
+            
             <div class="bg-image">
                 <img src="media/test2.png">
             </div> 
@@ -105,8 +124,14 @@ if(isset($_POST['login'])){
             </div>
         </div>
     </div>
-    <label class="title" style="font-size: 50px; color:black;font-family: 'Times New Roman', Times, serif; position:absolute; top:50px;left:19%;">OnlyFunds<br></label>
-    <label style="font-size: 25px; color:black;font-family: 'Times New Roman', Times, serif; position:absolute; top:120px;left:20%;"> "Plan a bright future"</labe>
+    <div class="headerOF">
+        <div class="logo-image">
+            <img src="media/logo2.png">
+        </div> 
+        <label class="title">OnlyFunds<br><br></label>
+        <label class="subtitle">"Plan a bright future"</labe>
+    </div>
+
     
 
     
