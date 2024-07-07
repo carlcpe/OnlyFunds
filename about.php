@@ -1,4 +1,7 @@
-<?php include('header.php'); ?>
+<?php 
+include('header.php'); 
+checkUser();
+userArea();?>
 
 <div class="main-content">
    <div class="section__content section__content--p30">
