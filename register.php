@@ -77,24 +77,42 @@ if (isset($_POST['signIn'])) {
 <style>
     .bg-image{
         position: absolute;
-        left: 30px;
+        left: 5%;
         top: 150px;
     }
     .logo-image{
         position: absolute;
         width: 120px;
-        left: 8%;
-        top: 60px;
+        top: 10px;
 
+    }
+    .headerOF{
+        position:absolute;
+        top:50px;
+        left: 15%;
+        height: 150px;
+        width: 500px;
+    }
+    .title{
+        font-size: 50px; 
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        left: 125px;
+    }
+    .subtitle{
+        font-size: 25px; 
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        left: 150px;
+        top: 75px;
     }
 </style>
 <body class="animsition">
     <div class="page-wrapper">
         <div class="page-content--bge5">
             <div class="container">
-                <div class="logo-image">
-                    <img src="media/logo2.png">
-                </div> 
                 <div class="bg-image">
                     <img src="media/signup2.png">
                 </div> 
@@ -126,9 +144,13 @@ if (isset($_POST['signIn'])) {
             </div>
         </div>
     </div>
-    <label class="title" style="font-size: 50px; color:black;font-family: 'Times New Roman', Times, serif; position:absolute; top:50px;left:15%;">Sign Up Today!<br></label>
-    <label style="font-size: 25px; color:black;font-family: 'Times New Roman', Times, serif; position:absolute; top:120px;left:17%;"> "Be part of OnlyFunds"</labe>
-    
+    <div class="headerOF">
+        <div class="logo-image">
+            <img src="media/logo2.png">
+        </div> 
+        <label class="title">Sign Up Today!<br><br></label>
+        <label class="subtitle">"Be part of OnlyFunds"</labe>
+    </div>
 
     <script src="vendor/jquery-3.2.1.min.js"></script>
     <script src="vendor/bootstrap-4.1/popper.min.js"></script>
